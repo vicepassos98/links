@@ -17,9 +17,8 @@ elif lanche=="3":
 else:
     print("Digite o número referente ao seu lanche")
     exit()
-qtde=int(input("Quantos desse lanche você deseja?"))
-rl=qtde*p1
-print(f" Até agora o valor do seu pedido é de R${rl},00")
+
+print(f" Até agora o valor do seu pedido é de R${pl},00")
 #Vamos definir nosso cardápio de bebidas
 print("\nEscolha Sua Bebida:")
 print("1 - Guarana Jesus  R$8,00")
@@ -38,10 +37,9 @@ elif bebida=="4":
 else:
     print("Digite o número CORRETO da sua bebida sô")
     exit()
-qb=input("quantas bebidas?")
-rb=pb*qb
-fb=rb+rl
-print(f"Até agora o valor do seu pedido é de R${fb},00")
+
+p1=pb+pl
+print(f"Até agora o valor do seu pedido é de R${p1},00")
 #Agora vamos definir nosso cardápio de Acompanhamentos
 print("Escolha seu acompanhamento:\n")
 print("1 - Batata Frita              R$15,00")
@@ -60,6 +58,6 @@ elif acp=="4":
 else:
     print("Digite somente o número do seu acompanhamento")
     exit()
-qa=input("quantos acompanhamentos você deseja?")
-ra=rb+pa*qa
+
+p2=pa+p1
 print(f"O preço do seu pedido é de R${p2},00.")
