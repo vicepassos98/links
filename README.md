@@ -1,5 +1,4 @@
 # Profº Victor Passos: Arquivos para download
-m
 
 [💰 Gestão Financeira](https://drive.google.com/drive/folders/158Rgl-3hnCu6u9w8s1-QiEiVhzXmRwgP?usp=drive_link) 
 
