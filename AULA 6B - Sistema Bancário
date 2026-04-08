@@ -1,0 +1,46 @@
+saldo=6700
+print("==Sistema de Saque 23 horas==")
+while True:
+    print("..Menu Principal..")
+    print("1 - Ver Saldo.....")
+    print("2 - Depositar.....")
+    print("3 - Sacar.........")
+    print("4 - Encerrar......")
+    op=input("Selecione uma das operações:\n")
+    if op=="1":
+        print(f" O seu saldo atual é de R${saldo}")
+        print()
+        print()
+    elif op=="4":
+        print("............Programa Encerrado..........")
+        print(" Banco Bamerindus Agradece a preferência")
+        break
+    elif op=="2":
+        depósito=input("Insira o valor do depósito:\n")
+        if not depósito.isdigit():
+            print("Valor inválido digite apenas números")
+            print()
+            continue
+        valor=float(depósito)
+        saldo=saldo+valor
+        print(f" O depósito de R${valor} foi adicionado à sua conta")
+        print()
+    elif op=="3":
+        saque=input("Insira o valor a ser retirado:\n")
+        if not saque.isdigit():
+            print("Valor inválido, digite apenas números")
+            print()
+            continue
+        dinheiro=float(saque)
+        if dinheiro>saldo:
+            print("Impossível sacar valor maior que o saldo disponível")
+            print(f" Seu saldo atual é de R${saldo}")
+            print()
+            continue
+        saldo=saldo-dinheiro
+        print(f"Você realizou um saque de R${dinheiro}")
+        print()
+    else:
+        print("Digite apenas o número referente a operação")
+        print()
+        continue
