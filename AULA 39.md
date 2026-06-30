@@ -1,4 +1,4 @@
-# Aula 10 — Funções em Python
+# Aula 9 — Funções em Python
 
 Até agora escrevemos programas colocando todo o código em sequência.
 
