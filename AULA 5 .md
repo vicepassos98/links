@@ -227,66 +227,7 @@ Calcule a média dos números da lista.
 
 ---
 
-# Introdução aos dicionários
 
-Além das listas, existe outra estrutura muito utilizada: o dicionário.
-
-Ele funciona como uma agenda.
-
-Cada informação possui uma chave.
-
-```python
-aluno = {
-    "nome":"Carlos",
-    "idade":19,
-    "curso":"Python"
-}
-```
-
----
-
-# Percorrendo um dicionário
-
-```python
-for chave in aluno:
-    print(chave)
-```
-
-Resultado
-
-```
-nome
-idade
-curso
-```
-
-Podemos acessar também os valores.
-
-```python
-for chave in aluno:
-    print(aluno[chave])
-```
-
-Ou ambos.
-
-```python
-for chave, valor in aluno.items():
-    print(chave,valor)
-```
-
----
-
-## Exercício
-
-Crie um dicionário com informações sobre um carro.
-
-Imprima:
-
-- somente as chaves;
-- somente os valores;
-- chave e valor juntos.
-
----
 
 # Resumo
 
@@ -295,6 +236,5 @@ Nesta aula aprendemos que o `for` pode percorrer:
 - `range()`;
 - Strings;
 - Listas;
-- Dicionários.
 
 Nas próximas aulas utilizaremos essas estruturas para criar programas muito mais completos.
