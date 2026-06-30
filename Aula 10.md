@@ -1,4 +1,4 @@
-# Aula 9 — Introdução ao NumPy e Pandas
+# Aula 10 — Introdução ao NumPy e Pandas
 
 Até agora escrevemos nossos programas utilizando apenas recursos da própria linguagem Python.
 
