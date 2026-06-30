@@ -135,6 +135,108 @@ As condicionais normalmente utilizam operadores de comparação.
 
 ---
 
+# Exercício 1 — Explorando os operadores de comparação
+
+Até agora aprendemos diversos operadores de comparação.
+
+Antes de utilizá-los em estruturas condicionais, vamos observar como eles funcionam.
+
+Crie as seguintes variáveis:
+
+```python
+a = 15
+b = 20
+```
+
+Agora execute, **uma por vez**, as expressões abaixo:
+
+```python
+a == b
+```
+
+```python
+a != b
+```
+
+```python
+a > b
+```
+
+```python
+a < b
+```
+
+```python
+a >= b
+```
+
+```python
+a <= b
+```
+
+Observe que o Python responde apenas com dois possíveis valores:
+
+- `True` → Verdadeiro
+- `False` → Falso
+
+Esses dois valores representam o resultado de uma comparação lógica.
+
+Experimente alterar os valores de `a` e `b` e execute novamente as comparações.
+
+> **Desafio:** descubra uma combinação de valores para que `a >= b` retorne `True`.
+
+---
+
+# Exercício 2 — Comparando a idade do usuário
+
+Agora vamos realizar comparações utilizando uma informação fornecida pelo usuário.
+
+Primeiro, peça a idade:
+
+```python
+idade = int(input("Digite sua idade: "))
+```
+
+Em seguida, execute cada uma das comparações abaixo:
+
+```python
+idade >= 18
+```
+
+```python
+idade < 18
+```
+
+```python
+idade == 30
+```
+
+```python
+idade != 50
+```
+
+Altere a idade digitada algumas vezes e observe como os resultados mudam.
+
+Perceba que cada comparação sempre retorna apenas um dos dois valores possíveis:
+
+- `True`
+- `False`
+
+Esses valores serão muito importantes na próxima etapa, quando utilizarmos estruturas condicionais (`if`, `elif` e `else`).
+
+> **Desafio:** experimente criar outras comparações, como:
+>
+> ```python
+> idade > 60
+> ```
+>
+> ```python
+> idade <= 12
+> ```
+>
+> Tente prever o resultado antes de executar cada expressão.
+
+
 # Nosso terceiro programa
 
 Vamos criar uma nova versão do programa.
